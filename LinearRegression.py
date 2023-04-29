@@ -37,3 +37,6 @@ plt.scatter(data_x,data_y) #數據的分布圖
 plt.plot(x1,y1) #直線方程式圖形
 plt.show()
 
+x1 = input("請輸入一個資料: ")
+y1 = m*(float(x1)-average_x)+average_y
+print("預測出的值為: ",y1)
